@@ -1,0 +1,23 @@
+:root{--board:#1f3d36;--ink:#16211e;--paper:#f3f6f4;--mark:#f2b632;--line:#d5ddd9}
+body{font-family:'Hind Siliguri',system-ui,sans-serif;background:var(--paper);color:var(--ink)}
+h1,h2,h3,h4,h5,.brand{font-family:'Bricolage Grotesque',system-ui,sans-serif}
+.navbar{background:var(--board)}
+.navbar a,.navbar .nav-link{color:#e8efec}
+.brand{font-weight:800;font-size:1.4rem;color:#fff!important}
+.brand i{font-style:normal;color:var(--mark)}
+.navbar-toggler{border-color:#8fa8a0;background:#e8efec}
+.hero{background:var(--board);color:#fff;border-radius:8px;padding:56px 32px;margin:24px 0}
+.hero h1{font-weight:800;font-size:clamp(2rem,5vw,3.2rem);max-width:640px}
+.hero p{color:#c4d3ce;max-width:520px}
+.hero form{max-width:520px}
+.btn-primary{background:var(--mark);border-color:var(--mark);color:var(--ink);font-weight:600}
+.btn-primary:hover,.btn-primary:focus{background:#e0a41f;border-color:#e0a41f;color:var(--ink)}
+.btn-outline-primary{color:var(--board);border-color:var(--board)}
+.btn-outline-primary:hover{background:var(--board);border-color:var(--board)}
+.card{border:1px solid var(--line);border-radius:6px;box-shadow:none}
+.star{color:#b57f00;font-weight:600}
+.badge-Pending{background:#f2b632;color:#16211e}.badge-Accepted{background:#2e7d5b}.badge-Rejected{background:#b3402f}
+.stat{border-left:4px solid var(--mark);padding:8px 14px;background:#fff}
+.stat b{font-size:1.8rem;font-family:'Bricolage Grotesque',sans-serif}
+:focus-visible{outline:3px solid var(--mark);outline-offset:2px}
+footer{text-align:center;padding:24px;color:#5d6e68;font-size:.9rem}
